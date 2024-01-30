@@ -1,0 +1,81 @@
+@media only screen and (max-width: 600px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav{
+       overflow: hidden;
+    }
+    .proff{
+        margin-left: 20px;
+        padding-bottom: 40px;
+    }
+    .home{
+        height: 100vh;
+        margin-top: 0px; 
+    }
+    .img-info{
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .img-info div{
+        margin-top: 30px;
+    }
+    .name p{
+        margin-top:30px ;
+    }
+    .ani li{
+        font-weight: bold;
+        font-size: 29.5px;
+        margin-left: 0px;
+        animation:slide 10s steps(4) infinite;
+        
+    }
+@keyframes slide{
+   100%{
+    top:-140px
+   }
+}
+    
+
+    .static-text{
+        font-size: 29px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .proff.ani{
+        line-height: 40px;
+        height: 40px;
+        overflow: hidden;
+    }
+
+    .about-page{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: auto;
+
+
+    }
+    .skill{
+        padding-top: 40px;
+        width: 15em;
+        background-color: aliceblue;
+        color: black;
+    }
+    
+    .about{
+        padding-top: 100px;
+    }
+
+}
+@media only screen and(min-width:600){
+    .home{
+        background-color: aliceblue;
+    }
+}
+    
